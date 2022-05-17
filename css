@@ -1,0 +1,285 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after
+*::before{
+ box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background: F6F6F8;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+
+}
+/*logo*/
+.header__top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 126px;
+}
+
+.list{
+    display: flex;
+    margin-left:45px;
+}
+
+.list__nav{
+    display: flex;
+    margin-left:45px;
+}
+
+ul{
+    list-style: 0;
+}
+
+.logo{
+    margin-bottom: 5px;
+}
+
+.list__link:hover{
+    cursor: pointer;
+}
+
+/*header__main*/
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+.container__about{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    
+}
+
+.header__about{
+
+    padding-top: 40px;
+    min-height:calc(100vh-126px) ;
+}
+
+.about__images img{
+    margin-left: 20px;
+    padding-top: 40px;
+    height: 400px;
+    width: 350px;
+}
+
+.exams{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+
+main{
+    max-width: 100%; 
+    max-height: 100%;
+    
+}
+
+
+.contaner__futureprofession{
+    
+    padding: 0 10px;
+    
+}
+.futurprof{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    padding-top: 55px;
+}
+.stringone{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.future_no_p{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+
+
+
+.prof{
+    height: 0;
+    }
+.futureprofession{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.collums__futureprofession1{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collums__futureprofession2{
+    width: 250px;
+    margin-left: 15px;
+    padding-bottom: 50px;
+}
+.collums__futureprofession3{
+    width: 250px;
+    margin-left: 15px;
+}
+
+.youlearn__container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+}
+
+.professionalModals__container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+}
+
+
+
+
+/*footer*/
+
+.container_footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    }
+    .logo-2{
+    display: flex;
+    justify-content: left;
+    }
+    .contact_information{
+    color: #fff;
+    }
+    .color-text{
+    color: white;
+    }
+    footer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #010005;
+    height: 200px;
+    }
+    .footer{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+    }
+    .padding-footer{
+     padding-top: 5px;
+        
+     }          
+
+    .padding-footer{
+    padding-top: 5px;
+    
+    }
+
+    .titleprof{
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .modulis{
+        padding-top: 50px;
+        width: 350px;
+        margin-left: 15px;
+        padding-bottom: 50px;
+    }
+
+    .logo-2{
+        height: 20px;
+        width: 20px;
+    }
+
+    .partners__container{
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-around; 
+        
+        
+        
+    }
+
+    .partners{
+        max-width: 1500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .slider__partners{
+        display: flex;
+               
+    }
+    
+    .i{
+        width: 170px;
+        height: 100px;
+    }
